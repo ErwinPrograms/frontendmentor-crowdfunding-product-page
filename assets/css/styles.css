@@ -1,0 +1,48 @@
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+
+    --highlight-color: hsl(176, 50%, 47%);
+    --highlight-color-active: hsl(176, 72%, 28%);
+
+    --primary-text-color: hsl(0, 0%, 0%);
+    --secondary-text-color: hsl(0, 0%, 48%);
+}
+
+body {
+    font-size: var(--font-size);
+    background-color: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+em {
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+div {
+    color: var(--secondary-text-color);
+}
+
+section {
+    border-radius: .5em;
+    background-color: white;
+    border: 1px solid var(--secondary-text-color);
+    margin: .5em;
+}
+
+p {
+    color: var(--secondary-text-color);
+}
+
+button {
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 100em;
+    border: none;
+}
