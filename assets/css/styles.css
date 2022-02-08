@@ -13,8 +13,19 @@
 }
 
 body {
+    margin: 0;
     font-size: 16px;
     background-color: #f0f0f0;
+}
+
+nav {
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
 }
 
 h1,
@@ -68,6 +79,61 @@ button {
     color: white;
     border-radius: 100em;
     border: none;
+}
+
+/*  */
+.crowdfund-content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  */
+
+.primary-info-wrapper,
+.selection-modal,
+.success-modal {
+    min-width: 10em;
+    width: 90%;
+    max-width: 46.5em;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.amount-left {
+    display: flex;
+    align-items: center;
+}
+
+/*  */
+.item-summary-container {
+    padding: 1em;
+}
+
+.item-summary-container p{
+    text-align: center;
+}
+
+.backer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backer-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backer-container em {
+    display: block;
+}
+
+.about-container .pledge-tier {
+    margin: 1.25em;
 }
 
 /*  */
