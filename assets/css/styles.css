@@ -13,7 +13,7 @@
 }
 
 body {
-    font-size: var(--font-size);
+    font-size: 16px;
     background-color: #f0f0f0;
 }
 
@@ -23,6 +23,24 @@ h3,
 em {
     font-weight: 700;
     color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+em {
+    font-size: 2em;
+    font-style: normal;
 }
 
 div {
@@ -38,11 +56,34 @@ section {
 
 p {
     color: var(--secondary-text-color);
+    line-height: 1.5em;
 }
 
 button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1em;
+
     background-color: var(--highlight-color);
     color: white;
     border-radius: 100em;
     border: none;
+}
+
+/*  */
+
+.inactive {
+    display: none;
+}
+
+.tier-requirement {
+    color: var(--highlight-color);
+}
+
+.out-of-stock {
+    opacity: .5;
+}
+
+.no-stock-btn {
+    background-color: var(--secondary-text-color);
 }
